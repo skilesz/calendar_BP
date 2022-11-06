@@ -3,15 +3,15 @@
     "header": {
       "name": "Universe 9 - Calendar Behaviors",
       "description": "This module will provide Universe 9 with a calendar system.",
-      "uuid": "beb16f03-88b6-49d4-ab9a-69c58c898f42",
-      "version": [1, 0, 0],
+      "uuid": "8b660559-6cae-45bf-8f53-d43e58a3f537",
+      "version": [1, 0, 1],
       "min_engine_version": [1, 16, 210]
   
     },
     "modules": [
       {
         "description": "Behaviors for Universe 9 - Calendar System",
-        "type": "data",
+        "type": "client_data",
         "uuid": "10912515-6091-408e-8459-50f8b4a6a5dd",
         "version": [1, 0, 0]
       },
@@ -24,6 +24,10 @@
       }
     ],
     "dependencies": [
+          {
+            "uuid": "29ea7923-65ca-4c17-ae21-e2aa234f5689",
+            "version": [0, 0, 1]
+          },
           {
               "module_name": "mojang-minecraft",
               "version": "1.0.0-beta"
