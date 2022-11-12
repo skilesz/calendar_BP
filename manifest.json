@@ -5,7 +5,8 @@
       "description": "This module will provide Universe 9 with a calendar system.",
       "uuid": "8b660559-6cae-45bf-8f53-d43e58a3f537",
       "version": [1, 0, 1],
-      "min_engine_version": [1, 19, 40]
+      "min_engine_version": [1, 19, 41],
+      "base_game_version": [1, 19, 41]
   
     },
     "modules": [
